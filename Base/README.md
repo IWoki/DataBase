@@ -563,7 +563,7 @@ HAVING COUNT(o.order_id) = (
 ```
 ![alt text](image-13.png)
 
-8. Потенциальные возвраты
+8. Заказы в процессе
 ```sql
 SELECT p.product_id, p.name, COUNT(oi.order_item_id) AS potential_return_count
 FROM products p
